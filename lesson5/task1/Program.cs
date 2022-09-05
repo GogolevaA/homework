@@ -21,27 +21,15 @@ static int CountValues(int[] array)
             if (array[i]%2==0)
             {
             count++;
-            // Console.WriteLine(count);
+            
             }
-            // int count=0;
-            // foreach (int item in array) if (item / 2 == 0 ) count++; item++;
-            // Console.WriteLine(count);
+           
             Console.WriteLine(count);
             return count;
-        //    count++;
-            // Console.WriteLine(count);
-            // Console.WriteLine(count);
+        
         }
 
-// void PrintArray(int count)
-// {
-//     Console.Write("[");
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (i != array.Length - 1) Console.Write($"{array[i]}, ");
-//         else Console.WriteLine($"{array[i]}]");
-//     }
-// }
+
 try
 {
     Console.Write("Введите длину массива: \t");
